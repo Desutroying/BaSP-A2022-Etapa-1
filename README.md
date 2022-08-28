@@ -6,6 +6,6 @@ Trackgenix is a web appication with which you can manage your business, having a
 
 ## How to open:
 
-1-Access to the folder Semana-02
-2-Open index.html
-3-Log in
+1-Access to the folder Semana-02<br>
+2-Open index.html<br>
+3-Log in<br>
