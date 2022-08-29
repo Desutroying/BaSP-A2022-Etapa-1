@@ -6,41 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trackgenix</title>
 </head>
-<body>
+<body style="background-color:grey;">
     <header>
-        <h1>
-            Trackgenix
-        </h1>
-        <h2>
-            By GigaTech Software Solutions
-        </h2>
+        <h1>Trackgenix</h1>
+        <h2>By GigaTech Software Solutions</h2>
     </header>
     <aside>
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Sign in</a>
-            </li>
-            <li>
-                <a href="#">Login</a>
-            </li>
-            <li>
-                <a href="#">Submenu</a> 
-                <ul>
-                    <li>
-                        <a href="#">placeholder</a>
-                    </li>
-                    <li>
-                        <a href="#">placeholder</a>
-                    </li>
-                    <li>
-                        <a href="#">placeholder</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <nav>
+            <ul>
+                <li>
+                    <img src="assets/images/HomeIcon.png" alt="Home"><a href="#">Homepage</a>
+                </li>
+                <li>
+                    <img src="assets/images/PersonIcon.png" alt="User"><a href="#">Sign in</a>
+                </li>
+                <li>
+                    <img src="assets/images/2PersonIcon.png" alt="Login"><a href="#">Login</a>
+                </li>
+                <li>
+                    <a href="#">Submenu</a> 
+                    <ul>
+                        <li>
+                            <a href="#">placeholder</a>
+                        </li>
+                        <li>
+                            <a href="#">placeholder</a>
+                        </li>
+                        <li>
+                            <a href="#">placeholder</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
 
         <h3>How</h3>
         <h3>GigaTech</h3>
@@ -88,7 +86,74 @@
         <h4>Resource</h4>
         <h4>management</h4>
         <h4>Multiples Roles</h4>
+        <img src="assets/images/ImgGrande2.png" alt="Distint functionalities">
     </section>
-    <img src="assets/images/ImgGrande2.png" alt="Distint functionalities">
+    <h3>
+        Request system information
+    </h3>
+    <form action="Gigatech-server.php" method="post">
+        <label for="Name">
+            Name
+        </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <label for="Email">
+            Email
+        </label>
+        <input type="text" name="email" id="email" placeholder="Enter your email">
+        <label for="Contact">
+            Contact area
+        </label>
+        <input type="radio" value="Human-resources">Human Resources
+        <input type="radio" value="Systems">Systems
+        <input type="radio" value="Marketing">Marketing
+        <br>
+        <label for="Message">
+            Message
+        </label>
+        <textarea name="message" id="message" cols="20" rows="5" placeholder="Enter your message">message</textarea>
+    </form>
+
+    <footer>
+        <section>
+            <h3>Contact us:</h3>
+            <p>
+                <img src="assets/images/MailIcon.png" alt="Mail"> sampletext@gmail.com
+            </p>
+            <p>
+                <img src="assets/images/BuildingIcon.png" alt="Building"> Av. 18 de Julio 5555, Montevideo, Uruguay
+            </p>
+        </section>
+        <section>
+            <section>
+                <h4>Our product</h4>
+                <ol>
+                    <li>Features</li>
+                    <li>Downloads</li>
+                    <li>Integrations</li>
+                    <li>Extras</li>
+                </ol>
+            </section>
+            <section>
+                <h4>Company</h4>
+                <ol>
+                    <li>About us</li>
+                    <li>Customers</li>
+                    <li>Resources</li>
+                    <li>Blog</li>
+                </ol>
+            </section>
+            <section>
+                <img src="assets/images/LinkedIn.png" alt="Linkedin-profile">
+                <img src="assets/images/Instagram.png" alt="Instagram-profile">
+                <img src="assets/images/Facebook.png" alt="Facebook-profile">
+                <img src="assets/images/Twitter.png" alt="Twitter-profile">
+            </section>
+            <section>
+                <p>
+                    Copyright &copy; GigaTech Software Solutions. All right reserved
+                </p>
+            </section>
+        </section>
+    </footer>
 </body>
 </html>
