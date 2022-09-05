@@ -1,0 +1,32 @@
+header  {
+    background-color:#373867;
+    font-family: default; /*Añadir fuente original*/    
+    font-weight: bold;
+    padding: 30px;
+    
+}
+
+header h1   {
+    position: relative;
+    font-size: 53px;
+    left: 30%;
+    top: 10px;
+}
+
+header h2   {
+    position: relative;
+    display: inline;
+    top: 10px;
+    right: -620px;
+}
+
+header section  {
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+header img  {
+    width: 30px;
+}
