@@ -1,4 +1,6 @@
 header  {
+    position: inherit;
+    margin-left: 20%;
     background-color:#373867;
     font-family: default; /*Añadir fuente original*/    
     font-weight: bold;
@@ -8,8 +10,9 @@ header  {
 
 header h1   {
     position: relative;
+    color:rgb(255, 255, 255);
     font-size: 53px;
-    left: 30%;
+    left:0;
     top: 10px;
 }
 
@@ -17,7 +20,7 @@ header h2   {
     position: relative;
     display: inline;
     top: 10px;
-    right: -620px;
+    right: -250px;
 }
 
 header section  {
@@ -32,14 +35,20 @@ header img  {
 }
 
 .sidebar    {
-    background-color: rgba(55, 56, 103, 40%);
+    position: fixed;
+    background-color: rgba(71, 103, 55, 0.4);
     font-size: 12px;
     text-align: left;
+    width: 20%;
+    height: 100%;
+    top: 0%;
 
 }
 
 .sidebar li {
     display: block; /*links sidebar*/
+    list-style:none;
+    padding: 5px;
 }
 
 .sidebar a  {
@@ -53,4 +62,9 @@ header img  {
     top: 5px;
     margin-right: 8px;
     margin-left: 30px;
+}
+
+#submenu    {
+    position: relative;
+
 }
