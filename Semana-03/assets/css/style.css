@@ -1,14 +1,13 @@
 header  {
-    position: inherit;
     margin-left: 20%;
-    background-color:#373867;
-    font-family: default; /*Añadir fuente original*/    
+    background-color:#373867;   
     font-weight: bold;
     padding: 30px;
     
 }
 
 header h1   {
+    display: inline;
     position: relative;
     color:rgb(255, 255, 255);
     font-size: 53px;
@@ -19,14 +18,14 @@ header h1   {
 header h2   {
     position: relative;
     display: inline;
-    top: 10px;
-    right: -250px;
+    top: 30px;
+    right: 90px;
 }
 
 header section  {
     display: inline;
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 10px;
 }
 
@@ -36,7 +35,7 @@ header img  {
 
 .sidebar    {
     position: fixed;
-    background-color: rgba(71, 103, 55, 0.4);
+    background-color: grey;
     font-size: 12px;
     text-align: left;
     width: 20%;
@@ -45,10 +44,18 @@ header img  {
 
 }
 
-.sidebar li {
-    display: block; /*links sidebar*/
+.sidebar input  {
+    position: relative;
+    left: 10%;
+    top: 10px;
+    height: 30px;
+}
+
+.sidebar li { /*links sidebar*/
+    position: relative;
     list-style:none;
-    padding: 5px;
+    top: 80px;
+    margin-top: 10px;
 }
 
 .sidebar a  {
@@ -65,6 +72,73 @@ header img  {
 }
 
 #submenu    {
+    display: inline-block;
     position: relative;
+    padding: 10px;
+    left: 19%;
+    color: #AACE9B;
+}
 
+.contact-us {
+    position: absolute;
+    bottom: 20px;
+}
+
+.contact-us h3  {
+    position: relative;
+    font-size: 20px;
+    left:40px;
+    font-weight: bold;
+    bottom: 40px;
+}
+
+.contact-us img {
+    display: inline;
+    position: relative;
+    left: 5px;
+}
+.contact-us p   {
+    position: relative;
+    margin: 5px;
+    right: 30px;
+}
+
+.track-section img  {
+    position: relative;
+    border-radius: 0% 5% 5% 0%;
+    left: 20%;
+    top: 40px; 
+}
+
+.track-section span   {
+    display: block;
+}
+
+.track-section h3   {
+    position: relative;
+    left: 22%;
+    bottom:480px;
+    color: #AACE9B;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#green-square-info  {
+    display: inline-block;
+    position: absolute;
+    background-color: #AACE9B;
+    padding: 50px 12px;
+    border-radius: 5%;
+    line-height: 30px;
+    right: 0;
+    top: 70%;
+}
+
+#green-square-info span {
+    display: block;
+    color: #373867;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 2px;
 }
