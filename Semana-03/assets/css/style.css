@@ -1,7 +1,10 @@
+*   {
+    font-family: 'Roboto', sans-serif;
+}
+
 header  {
     margin-left: 20%;
     background-color:#373867;   
-    font-weight: bold;
     padding: 30px;
     
 }
@@ -49,6 +52,7 @@ header img  {
     left: 10%;
     top: 10px;
     height: 30px;
+    width: 180px;
 }
 
 .sidebar li { /*links sidebar*/
@@ -115,23 +119,24 @@ header img  {
 }
 
 .track-section h3   {
-    position: relative;
+    position: absolute;
     left: 22%;
-    bottom:480px;
+    bottom: 50%;
     color: #AACE9B;
     font-size: 26px;
     font-weight: bold;
+    line-height: 30px;
 }
 
-#green-square-info  {
-    display: inline-block;
+ #green-square-info  {
+    display: block;
     position: absolute;
     background-color: #AACE9B;
     padding: 50px 12px;
     border-radius: 5%;
     line-height: 30px;
     right: 0;
-    top: 70%;
+    top: 80%;
 }
 
 #green-square-info span {
@@ -141,4 +146,31 @@ header img  {
     font-weight: bold;
     text-align: right;
     letter-spacing: 2px;
+}
+
+#why-trackgenix {
+    display: block;
+    position: relative;
+    top: 45px;
+}
+
+#why-trackgenix h3{
+    text-align: center;
+    margin: 40px;
+}
+ #why-trackgenix p   {
+    display: block;
+    position: relative;
+    text-align: left;
+    margin:30px 0px 30px 32%;
+
+}
+
+#why-trackgenix span    {
+    position: relative;
+    display:block;
+}
+
+.burbles span   {
+    display: block;
 }
