@@ -179,13 +179,13 @@ header img  {
 
 #burble-2   {
     position: absolute;
-    top: 1040px;
+    top: 980px;
     right: 100px;
 }
 
 #burble-3   {
     position: absolute;
-    top: 1240px;
+    top: 1100px;
     right: 250px;
 }
 
@@ -195,6 +195,70 @@ header img  {
 
 #burble-4   {
     position: absolute;
-    top: 1440px;
+    top: 1240px;
     right: 100px;
+}
+
+#tools  {
+    position: absolute;
+    display:block;
+    left: 24%;
+    top: 1550px;
+    width: 72%;
+}
+
+#tools section  {
+    display: inline-block;
+    background-color: #AACE9B;
+    width: 200px;
+    height: 208px;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+
+#tools span {
+    display: block;
+}
+
+#tools p    {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tools #hour img    {
+    position: relative;
+    top: 45px;
+}
+
+#tools #reports {
+    position: relative;
+    bottom: 4px;
+}
+
+#tools #reports img {
+    position: relative;
+    top: 42px;
+}
+
+#tools #resource-management {
+    position: relative;
+    bottom: -12px;
+}
+
+#tools #resource-management img {
+    position: relative;
+    top: 28px;
+}
+
+#tools #multiple-roles  {
+    position: relative;
+    bottom: 25px;
+}
+
+#tools #multiple-roles img  {
+    position: relative;
+    top: 50px;
 }
