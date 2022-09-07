@@ -1,28 +1,33 @@
-*   {
+body    {
     font-family: 'Roboto', sans-serif;
+    background-color: #D9D9D9;
 }
 
 header  {
-    margin-left: 20%;
-    background-color:#373867;   
-    padding: 30px;
-    
+    position: absolute;
+    background-color: #373867;
+    width: 80%;
+    left: 20%;
+    padding-top: 80px;
 }
 
 header h1   {
-    display: inline;
     position: relative;
-    color:rgb(255, 255, 255);
-    font-size: 53px;
-    left:0;
-    top: 10px;
+    display: inline;
+    color: white;
+    left: 5%;
+    bottom: 30px;
+    font-size: 91px;
+    font-weight: bold;
 }
 
 header h2   {
     position: relative;
     display: inline;
-    top: 30px;
-    right: 90px;
+    bottom: 15px;
+    right: 70px;
+    font-size: 11px;
+    width: 80%;
 }
 
 header section  {
@@ -33,144 +38,163 @@ header section  {
 }
 
 header img  {
-    width: 30px;
+    width: 31px;
 }
 
 .sidebar    {
-    position: fixed;
-    background-color: grey;
-    font-size: 12px;
-    text-align: left;
-    width: 20%;
+    position: absolute;
+    float: left;
+    background-color: #707070;
+    left:0;
     height: 100%;
-    top: 0%;
-
-}
-
-.sidebar input  {
-    position: relative;
-    left: 10%;
-    top: 10px;
-    height: 30px;
-    width: 180px;
-}
-
-.sidebar li { /*links sidebar*/
-    position: relative;
-    list-style:none;
-    top: 80px;
-    margin-top: 10px;
-}
-
-.sidebar a  {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+    width: 20%;
 }
 
 .sidebar img    {
-    position: relative;
-    width: 20px; /*tamaño de iconos de sidebar*/
-    top: 5px;
-    margin-right: 8px;
-    margin-left: 30px;
+    width: 20px;
+}
+.sidebar a  {
+    text-decoration: none;
+    color: white;
 }
 
-#submenu    {
-    display: inline-block;
-    position: relative;
-    padding: 10px;
-    left: 19%;
-    color: #AACE9B;
+.sidebar h3 {
+    font-size: large;
 }
 
-.contact-us {
-    position: absolute;
-    bottom: 20px;
-}
-
-.contact-us h3  {
-    position: relative;
-    font-size: 20px;
-    left:40px;
-    font-weight: bold;
-    bottom: 40px;
-}
-
-.contact-us img {
+.sidebar p  {
     display: inline;
-    position: relative;
-    left: 5px;
+    font-size: small;
 }
-.contact-us p   {
-    position: relative;
-    margin: 5px;
-    right: 30px;
+
+.track-section  {
+    position: absolute;
+    display:inline;
+    left: 20%;
+    top: 228px;
+}
+
+.track-section span {
+    display: block;
+}
+
+.track-section h3    {
+    position: absolute;
+    color: #AACE9B;
+    top: 17px;
+    left: 17px;
+    font-size: 29px;
+    font-weight: bold;
 }
 
 .track-section img  {
-    position: relative;
-    border-radius: 0% 5% 5% 0%;
-    left: 20%;
-    top: 40px; 
+    border-radius: 0 12% 12% 0;
 }
 
-.track-section span   {
-    display: block;
-}
-
-.track-section h3   {
+#green-square-info  {
     position: absolute;
-    left: 22%;
-    bottom: 50%;
-    color: #AACE9B;
-    font-size: 26px;
-    font-weight: bold;
-    line-height: 30px;
-}
-
- #green-square-info  {
-    display: block;
-    position: absolute;
-    background-color: #AACE9B;
-    padding: 50px 12px;
-    border-radius: 5%;
-    line-height: 30px;
+    display: inline-block;
+    background-color: #aace9bbe;
+    width: 370px;
+    height: 270px;
     right: 0;
-    top: 80%;
+    bottom: -180px;
+    border-radius:5% 0% 0% 5%;
 }
 
 #green-square-info span {
-    display: block;
+    display: inline-block;
+}
+
+#green-square-info p    {
+    position: relative;
     color: #373867;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: right;
+    line-height: 40px;
     letter-spacing: 2px;
+    word-spacing: 2px;
+    text-align: right;
+    font-weight: 800;
+    font-size: 17px;
+    top: 15px;
+    right: 28px;
 }
 
 #why-trackgenix {
-    display: block;
-    position: relative;
-    top: 45px;
+    position: absolute;
+    display: inline-block;
+    bottom: -879px;
+    right: 400px;
+    width: 600px;
 }
 
-#why-trackgenix h3{
+#why-trackgenix h3  {
+    position: relative;
     text-align: center;
-    margin: 40px;
-}
- #why-trackgenix p   {
-    display: block;
-    position: relative;
-    text-align: left;
-    margin:30px 0px 30px 32%;
-
+    font-size: 34px;
+    margin-bottom: 20px;
+    margin-right: 150px;
 }
 
 #why-trackgenix span    {
-    position: relative;
-    display:block;
+    display: block;
 }
 
-.burbles span   {
+#why-trackgenix p   {
+    position: relative;
+    text-align: left;
+    color:#373867;
+    font-size: 23px;
+    left: 0px;
+    margin-bottom: 20px;
+    line-height: 37px;
+
+}
+
+.burble-text span   {
     display: block;
+    color: #AACE9B;
+}
+
+.burble-text section  {
+    background-color: #373867;
+    width: 150px;
+    height: 131px;
+    border-radius: 50%;
+    border: 8px solid rgb(100, 100, 100);
+}
+
+.burble-text p  {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+}
+
+#burble-1   {
+    position: absolute;
+    top: 840px;
+    right: 250px;
+}
+
+#burble-2   {
+    position: absolute;
+    top: 1040px;
+    right: 100px;
+}
+
+#burble-3   {
+    position: absolute;
+    top: 1240px;
+    right: 250px;
+}
+
+#burble-3 p {
+    margin-top: 40px;
+}
+
+#burble-4   {
+    position: absolute;
+    top: 1440px;
+    right: 100px;
 }
