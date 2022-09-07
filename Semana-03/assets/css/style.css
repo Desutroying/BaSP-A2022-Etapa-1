@@ -42,7 +42,7 @@ header img  {
 }
 
 .sidebar    {
-    position: absolute;
+    position: fixed;
     float: left;
     background-color: #707070;
     left:0;
@@ -261,4 +261,34 @@ header img  {
 #tools #multiple-roles img  {
     position: relative;
     top: 50px;
+}
+
+.biography  {
+    position: absolute;
+    background-color: white;
+    width: 50%;
+    left: 30%;
+    bottom: -1700px;
+    padding-top: 60px;
+    border-radius: 15px;
+}
+
+.biography article  {
+    background-color: rgb(217, 217, 217,33%);
+    
+}
+
+.biography h3   {
+    position: relative;
+    text-align: center;
+    background-color: rgb(217, 217, 217,33%);
+    bottom: 30px;
+    font-size: 34px;
+    color: #373867;
+    font-weight: bold;
+}
+
+.biography  p   {
+    margin: 20px;
+    line-height: 30px;
 }
