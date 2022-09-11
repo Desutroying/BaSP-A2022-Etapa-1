@@ -1,0 +1,26 @@
+header  {
+    display: flex;
+    background-color: #373867;
+    flex-direction: column;
+}
+
+header h1   {
+    color: #fff;
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+header h2   {
+    font-size: 10px;
+    text-align: end;
+    margin: 0px 60px;
+}
+
+header img  {
+    border-radius: 0 0 77px 77px;
+}
+.socialmedia-header {
+    display: none;
+}

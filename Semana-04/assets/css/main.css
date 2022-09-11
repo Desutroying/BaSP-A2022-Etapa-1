@@ -1,0 +1,26 @@
+.main-section-1 {
+    display: flex;
+    background-color: #373867;
+    flex-direction: column;
+}
+
+.main-section-1 section:first-child  {
+    color: #AACE9B;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 29px;
+    padding-top: 15px;
+    line-height: 19px;
+} 
+
+.main-section-1 img {
+    display: none;
+}
+
+#main-green-burble  {
+    margin: 20px auto;
+    background-color: #AACE9B;
+    padding: 20px;
+    border-radius: 15px;
+}
