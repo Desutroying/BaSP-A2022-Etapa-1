@@ -2,9 +2,10 @@
     display: flex;
     background-color: #373867;
     flex-direction: column;
+    gap: 20px;
 }
 
-.main-section-1 section:first-child  {
+.main-section-1 section:first-child {
     color: #AACE9B;
     font-size: 16px;
     font-weight: 700;
@@ -12,15 +13,132 @@
     padding-left: 29px;
     padding-top: 15px;
     line-height: 19px;
-} 
+}
 
 .main-section-1 img {
     display: none;
 }
 
-#main-green-burble  {
-    margin: 20px auto;
+#main-section-1-burble {
+    display: flex;
+    flex-direction: column;
     background-color: #AACE9B;
-    padding: 20px;
-    border-radius: 15px;
+    color: #373867;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 127.67%;
+    border-radius: 58px;
+    padding: 8% 6%;
+}
+
+#main-section-1-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+#main-section-1-subtitle h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: auto
+}
+
+#main-section-1-subtitle p {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 3% 5%;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+#main-burbles-features {
+    display: none;
+}
+
+#main-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 0.28);
+    border-radius: 10px;
+}
+
+#main-article h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 5% 0;
+}
+
+#main-article p {
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0 11%;
+}
+
+.main-form {
+    margin-top: 8%;
+}
+
+.main-form h3 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+    margin-left: 7%;
+    margin-bottom: 8%;
+}
+
+.main-form form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+}
+
+.main-form fieldset {
+    margin: 5%;
+}
+
+.main-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 1%;
+}
+
+.main-form #name,
+#email {
+    width: 94%;
+    height: 75%;
+}
+
+/* Search placeholder alignament */
+
+#name::placeholder {
+    font-size: 16px;
+}
+
+#email::placeholder {
+    font-size: 16px;
+}
+
+.main-form-inputs-radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #373867;
+    font-weight: 500;
+    outline: auto;
+}
+
+.main-form-selection-radio {
+    display: flex;
+    width: 120px;
+    height: 30px;
+    align-items: center;
 }

@@ -15,6 +15,7 @@
     href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -81,7 +82,7 @@
                 <h3>of your employees progress easily</h3>
             </section>
             <img src="assets/images/week-2-descriptive-image.jpg" alt="Example of all the tools it has">
-            <section id="main-green-burble">
+            <section id="main-section-1-burble">
                 <p>
                     Our HR management software will
                 </p>
@@ -98,7 +99,7 @@
                     the next level.
                 </p>
             </section>
-            <section>
+            <section id="main-section-1-subtitle">
                 <h3>Why Trackgenix?</h3>
                 <p>
                     We seek to make the management of the different areas of the companies work in a much simpler and more efficient way. Our goal is to reduce and optimize considerably the costs associated with the fulfillment of the working day.
@@ -112,7 +113,7 @@
                 <p>
                     DOING YOUR BUSINESS
                 </p>
-                <section>
+                <section id="main-burbles-features">
                     <p>
                         Productivity enhancer
                     </p>
@@ -129,9 +130,9 @@
             </section>
         </section>
         <section>
-            <img src="assets/images/ImgGrande2.png" alt="Distint functionalities">
+            <!-- Distinct functionalitys with html squares and icons -->
         </section>
-        <article>
+        <article id="main-article">
             <section>
                 <h3>How GigaTech was born</h3>
             </section>
@@ -142,38 +143,48 @@
                 Since then, we have been striving to help improve  our customers productivity rates, branching out into software solutions of all kinds. Our patented strategies and diversity of layout sheets have enabled us to reach over 150 companies in the span of only 6 months, granting us the title of Fastest Growing Company of 2022 in the Trackathon Awards for companies in the field of Logistics.
             </p>
         </article>
-        <h3>Request system information</h3>
-        <form action="Gigatech-server.php" method="post">
-            <fieldset>
-                <label>
-                    Name
-                </label>
-                <input type="text" name="name" id="name" placeholder="Enter your name" required>
-            </fieldset>
-            <fieldset>
-                <label>
-                    Email
-                </label>
-                <input type="text" name="email" id="email" placeholder="Enter your email" required>
-            </fieldset>
-            <fieldset>
-                <label>
-                    Contact area
-                </label>
-                <input type="radio" value="Human-resources">Human Resources
-                <input type="radio" value="Systems">Systems
-                <input type="radio" value="Marketing">Marketing
-            </fieldset>
-            <fieldset>
-                <label>
-                    Message
-                </label>
-                <textarea name="message" id="message" cols="20" rows="5" placeholder="Enter your message" style="resize:none;"></textarea>
-            </fieldset>
-            <fieldset>
-                <input type="submit" value="Request information">
-            </fieldset>
-        </form>
+        <section class="main-form">
+            <h3>Request system information</h3>
+            <form action="Gigatech-server.php" method="post">
+                <fieldset>
+                    <label>
+                        Name
+                    </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Email
+                    </label>
+                    <input type="text" name="email" id="email" placeholder="Enter your email" required>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Contact area
+                    </label>
+                    <section class="main-form-inputs-radio">
+                            <section class="main-form-selection-radio-1 main-form-selection-radio">
+                                <input type="radio" value="Human-resources" name="Contact-type">Human Resources
+                            </section>    
+                            <section class="main-form-selection-radio">
+                                <input type="radio" value="Systems" name="Contact-type">Systems
+                            </section>
+                            <section class="main-form-selection-radio">
+                                <input type="radio" value="Marketing" name="Contact-type">Marketing
+                            </section>
+                    </section>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Message
+                    </label>
+                    <textarea name="message" id="message" cols="20" rows="5" placeholder="Enter your message" style="resize:none;"></textarea>
+                </fieldset>
+                <fieldset>
+                    <input type="submit" value="Request information">
+                </fieldset>
+            </form>
+        </section>
     </main>
     <section>
         <section>

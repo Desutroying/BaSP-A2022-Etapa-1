@@ -8,14 +8,15 @@ header h1   {
     color: #fff;
     font-size: 64px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 4%;
     text-align: center;
 }
 
 header h2   {
+    display: flex;
     font-size: 10px;
-    text-align: end;
-    margin: 0px 60px;
+    justify-content: center;
+    padding-left:230px;
 }
 
 header img  {
