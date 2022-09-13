@@ -187,6 +187,11 @@
     row-gap: 5px;
 }
 
+.main-form-inputs-message-area textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
 .main-form-inputs-message-area textarea::placeholder {
     font-size: 16px;
 }
@@ -276,17 +281,23 @@
     row-gap: 21px;
 }
 
-.main-contact-us img  {
-    width: 30px;
-    background-color: #373867;
+.main-contact-us i  {
+    font-size: 30px;
+    color: #373867;
     margin-right: 10px;
 }
+
+.fa-building   {
+    margin-left:5px;
+}
+
 .main-contact-us p  {
     display: flex;
     align-items: center;
     margin-left: 23px;
     font-size: 14px;
 }
+
 
 .socialmedia-icons-footer, footer {
     background-color: #373867;
@@ -314,4 +325,10 @@
 
 #facebook-icon  {
     order: 2;
+}
+
+@media only screen and (min-width: 480px) {
+    .main-section-1 img     {
+        display: inline-block;
+    }
 }

@@ -19,9 +19,47 @@ header h2   {
     padding-left:230px;
 }
 
-header img  {
+.header-img img{
     border-radius: 0 0 77px 77px;
+    width: 100%;
 }
-.socialmedia-header {
+
+.header-menu-ellipsis    {
+    display: flex; 
+    font-size: 35px;
+    height: 35px;
+    justify-content: flex-end;
+    margin: 0 25px;
+    color: #fff;
+}
+.header-socialmedia {
     display: none;
+}
+
+@media only screen and (min-width: 480px) {
+    .header-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-socialmedia {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .header-socialmedia img {
+        width: 30px;
+        margin:16px 15px 16px 0;
+    }
+
+    .header-text h2 {
+        background-color: #fff;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .header-img {
+        display: none;
+    }
 }
