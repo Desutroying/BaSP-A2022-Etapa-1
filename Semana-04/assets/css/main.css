@@ -5,7 +5,7 @@
     gap: 20px;
 }
 
-.main-section-1 section:first-child {
+.main-section-1 #main-section-1-text {
     color: #AACE9B;
     font-size: 16px;
     font-weight: 700;
@@ -61,6 +61,46 @@
     display: none;
 }
 
+/* Square-functions */
+#main-section-2  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+
+#main-section-2 section {
+    display: flex;
+    background-color: #AACE9B;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 125px;
+    height: 115px;
+    margin: 14px 0 57px;
+    border-radius: 8px;
+}
+
+#main-section-2 p {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    color: black;
+    row-gap: 15px;
+    font-weight: 700;
+}
+
+#main-section-2 img {
+    display: block;
+    height: 38px;
+}
+
+/* Square-functions */
+
 #main-article {
     display: flex;
     flex-direction: column;
@@ -89,8 +129,8 @@
     font-size: 20px;
     color: rgba(0, 0, 0, 0.8);
     text-align: left;
-    margin-left: 7%;
-    margin-bottom: 8%;
+    margin-left: 5%;
+    margin-bottom: %;
 }
 
 .main-form form {
@@ -100,18 +140,18 @@
 }
 
 .main-form fieldset {
-    margin: 5%;
+    margin: 5% 0;
 }
 
 .main-form label {
-    display: block;
+    display: inline-block;
     font-size: 16px;
     margin-bottom: 1%;
 }
 
-.main-form #name,
-#email {
-    width: 94%;
+.main-form #name, #email {
+    font-size: 16px;
+    width: 98%;
     height: 75%;
 }
 
@@ -133,12 +173,145 @@
     font-size: 14px;
     color: #373867;
     font-weight: 500;
-    outline: auto;
 }
 
-.main-form-selection-radio {
+.main-form-selection-radio  {
+    display: block;
+    padding-top: 2%;
+    padding-right: 6%;
+}
+
+.main-form-inputs-message-area  {
     display: flex;
-    width: 120px;
-    height: 30px;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.main-form-inputs-message-area textarea::placeholder {
+    font-size: 16px;
+}
+.main-form-inputs-request   {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.main-form-inputs-request input {
+    background-color: #AACE9B;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    width: 99%;
+    height: 38px;
+}
+
+.main-info-about    {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.main-info-about-blocks {
+    display: block;
+    font-size: 16px;
+}
+
+.main-info-about-block-1    {
+    order: 1;
+}
+ 
+.main-info-about-block-2    {
+    order: 3;
+    margin-right: 5%;
+}
+
+.main-info-about-block-3    {
+    order: 2;
+}
+
+.main-info-about-blocks h5  {
+    font-weight: bold;
+}
+
+.main-info-about a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 80px;
+}
+
+.main-info-about ol {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    list-style:decimal;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.main-contact-us ol:first-child a{
+    display: block;
+}
+
+.main-contact-us    {
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    margin: 14% 0;
+}
+
+.main-contact-us h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.main-contact-us-content    {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 21px;
+}
+
+.main-contact-us img  {
+    width: 30px;
+    background-color: #373867;
+    margin-right: 10px;
+}
+.main-contact-us p  {
+    display: flex;
     align-items: center;
+    margin-left: 23px;
+    font-size: 14px;
+}
+
+.socialmedia-icons-footer, footer {
+    background-color: #373867;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+}
+
+.socialmedia-icons-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+
+.socialmedia-icons-footer img   {
+    width: 45px;
+    margin: 8px;
+}
+
+#linkedin-icon  {
+    order: 3;
+}
+
+#facebook-icon  {
+    order: 2;
 }
