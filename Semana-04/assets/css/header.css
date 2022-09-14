@@ -69,3 +69,18 @@ header h2   {
         display: none;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    header h1 {
+        font-size: 128px;
+        margin-top: 0;
+    }
+    .header-text h2 {
+        display: block;
+        text-align: right;
+        background-color: #373867;
+        margin-top: -25px;
+        padding-right: 250px;
+        font-size: 17px;
+    }
+}

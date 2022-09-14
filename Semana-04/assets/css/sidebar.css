@@ -1,3 +1,67 @@
 aside   {
     display: none;
 }
+
+@media only screen and (min-width: 1024px)  {
+    
+    body    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside   {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        min-height: 100%;
+        width: 18%;
+        background-color: rgba(112, 112, 112, 1);
+    }
+
+    aside #search   {
+        width: 90%;
+        height: 30px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    
+    aside img   {
+        margin-right: 5px;
+    }
+
+    aside li    {
+        margin: 20px 20px;
+    }
+
+    #submenu    {
+        visibility: hidden;
+    }
+    aside a    {
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #fff; 
+    }
+
+    aside img   {
+        width: 20px;
+    }
+
+    .contact-us {
+        padding-top: 10%;
+        padding-left: 15px;
+    }
+
+    .contact-us h3  {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .contact-us p   {
+        margin: 20px 0;
+        font-size: 13px;
+    }
+}
