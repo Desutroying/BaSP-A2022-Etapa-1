@@ -25,3 +25,4 @@ Added styles to web application in desktop resolution.
 
 ## Week 04
 
+Made web application responsive, adding changes for mobile, tablet and Desktop resolutions.
