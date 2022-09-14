@@ -22,7 +22,7 @@
 #main-section-1-burble {
     display: flex;
     flex-direction: column;
-    background-color: #AACE9B;
+    background-color: rgba(170, 206, 155, 0.82);
     color: #373867;
     font-size: 20px;
     text-align: center;
@@ -328,7 +328,97 @@
 }
 
 @media only screen and (min-width: 480px) {
-    .main-section-1 img     {
-        display: inline-block;
+
+    .main-section-1-img-with-text    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 12%;
     }
+
+    #main-section-1-text    {
+        display: inline;
+        z-index: 1;
+        margin-bottom: -100px;
+    }
+
+    #main-section-1-text h3 {
+        font-size: 160%;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    #main-section-1-text span   {
+        display: block;
+    }
+
+    .main-section-1 img     {
+        display: flex;
+        width: 80%;
+        height: 100%;
+        border-radius: 0 77px 77px 0;
+        justify-content: flex-start;
+    }
+
+    .main-section-1-img img{
+        display: block;
+        width: 100%;
+        min-height: 100%;
+        object-fit:scale-down;
+    }
+
+    #main-section-1-burble  {
+        display: inline;
+        margin-right: 0;
+        text-align: right;
+        padding: 5px;
+        border-radius: 15px 0 0 15px;
+        margin-left: auto;
+        margin-top: -200px;
+        margin-bottom: -20px;
+        width: 25%;
+    }
+    #main-section-1-burble p    {
+        display: inline;
+        text-align: right;
+    }
+    
+    #main-section-2 {
+        background-color: #E5E5E5;
+        padding: 0 12%
+    }
+
+    #main-section-2 section     {
+        min-width: 25%;
+        min-height: 100%;
+        margin-bottom: 71px;
+        margin: 14px 10% 71px 5%;
+    }
+
+    #main-section-2 img     {
+        width: 50px;
+    }
+
+    .main-section-3  {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #main-article   {
+        order: 1;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .main-info-about-blocks {
+        margin: auto;
+    }
+
+    footer  p {
+        font-size: 15px;
+    }
+
 }
