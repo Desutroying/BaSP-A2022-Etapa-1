@@ -467,11 +467,11 @@
         flex-direction: row;
     }
 
-    #main-section-1-subtitle-text {
+    .main-section-1-subtitle-text {
         display: flex;
     }
 
-    #main-section-1-subtitle-text h3 {
+    .main-section-1-subtitle-text h3 {
     }
 
     #main-burbles-features  {
