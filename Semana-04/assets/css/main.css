@@ -498,7 +498,9 @@
     }
 
     .main-info-about    {
-        margin-left: 15%;
+        margin: auto;
+        padding-left: 12%;
+        width: 80%;
     }
 
     .main-contact-us    {
