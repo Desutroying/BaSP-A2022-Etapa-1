@@ -354,6 +354,7 @@
 
     .main-section-1-subtitle-text {
         display: flex;
+        flex-direction: column;
         justify-content: center;
     }
 
@@ -469,6 +470,7 @@
 
     .main-section-1-subtitle-text {
         display: flex;
+        flex-direction: column;
     }
 
     .main-section-1-subtitle-text h3 {
