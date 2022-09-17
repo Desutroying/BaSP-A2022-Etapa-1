@@ -13,16 +13,16 @@ console.log('The sum of ' + a + ' + ' + b + ' es ' + sumOfNumbers);
 
 // Parte b)
 
-var a = 'Hola ';
-var b = 'cómo estás ?';
+var a = 'Hi ';
+var b = 'How are you ?';
 var sumOfStrings = a + b; //Concatenación de strings
 
 console.log(sumOfStrings);
 
 // Parte c)
 
-var a = 'Buen ';
-var b = 'día';
+var a = 'Good';
+var b = 'morning';
 var lengthOfChars = (a+b).length;
 
 console.log(lengthOfChars);
