@@ -21,42 +21,42 @@
 
 //Parte a
 
-var words = 'i want to sleep';
+var words = 'i want to sleep';  //Ayuda
 var wordsInUpperCase = words.toUpperCase();
 
-console.log(wordsInUpperCase);
+console.log(wordsInUpperCase); //Salida
 
 //Parte b
 
-var hungry = 'i want to eat';
+var hungry = 'i want to eat';   //24/7
 var subHungry = hungry.substring(0,5);
 
-console.log(subHungry);
+console.log(subHungry); //Salida
 
 //Parte c
 
-var developer = 'i want to drink coffee';
+var developer = 'i want to drink coffee';   //Mi única salvación
 var subDeveloper = developer.substring(17);
 
-console.log(subDeveloper);
+console.log(subDeveloper); //Salida
 
 //Parte d
 
 var tonyStarkQuote = 'i am Iron Man';
 var fixedTonyStarkQuote = tonyStarkQuote.substring(0,1).toUpperCase() + tonyStarkQuote.substring(1).toLowerCase();
 
-console.log(fixedTonyStarkQuote);
+console.log(fixedTonyStarkQuote); //Salida
 
 //Parte e
 
-var walterWhiteQuote = 'i am the danger';
+var walterWhiteQuote = 'i am the danger'; //Parte de diálogo de Walter White en Breaking Bad
 var firstWhiteSpace = walterWhiteQuote.indexOf(' ');
 
-console.log(firstWhiteSpace);
+console.log(firstWhiteSpace); //Salida
 
 //Parte f
 
-var regards = 'hello world';
+var regards = 'hello world'; //Saludos
 var cleanRegards = regards.substring(0,1).toUpperCase() + regards.substring(1,regards.indexOf(' ') + 1) + regards.substring(regards.indexOf(' ') + 1, regards.indexOf(' ') + 2).toUpperCase() + regards.substring(regards.indexOf(' ') + 2).toLowerCase();
 
-console.log(cleanRegards);
+console.log(cleanRegards); //Salida
