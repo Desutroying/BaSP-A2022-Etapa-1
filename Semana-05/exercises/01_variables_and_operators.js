@@ -8,20 +8,21 @@
 var a = 5;
 var b = 3;
 var sumOfNumbers = a + b;
+
 console.log('The sum of ' + a + ' + ' + b + ' es ' + sumOfNumbers);
 
 // Parte b)
 
-var a = 'Hola';
+var a = 'Hola ';
 var b = 'cómo estás ?';
-var sumOfStrings = a + ' ' + b;
+var sumOfStrings = a + b; //Concatenación de strings
 
 console.log(sumOfStrings);
 
 // Parte c)
 
-var a = 'Hola';
-var b = 'cómo estás ?';
-var lengthOfChars = sumOfStrings.length;
+var a = 'Buen ';
+var b = 'día';
+var lengthOfChars = (a+b).length;
 
 console.log(lengthOfChars);
