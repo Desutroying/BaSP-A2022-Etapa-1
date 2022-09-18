@@ -9,8 +9,15 @@
 
 // Parte a
 
-var arrayOfWords = ['Hello', 'I', 'am', 'a', 'array'];
+var arrayOfWords = ['hello', 'i', 'am', 'an', 'array'];
 
-for (let i = 0; i < arrayOfWords.length; i++) {
-    console.log(arrayOfWords[i]);
+for (var i = 0; i < arrayOfWords.length; i++) {
+    alert(arrayOfWords[i]); 
+}   //Recorre el array y muestra sus valores
+
+//Parte b
+
+for (var i = 0; i < arrayOfWords.length; i++) {
+    arrayOfWords[i] = arrayOfWords[i].substring(0,1).toUpperCase() + arrayOfWords[i].substring(1).toLowerCase();
+    alert (arrayOfWords[i]);
 }
