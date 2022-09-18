@@ -16,7 +16,7 @@
 //  Parte a 
 
 function sum(a, b)  {
-    return a + b;
+    return sum3(a,b);
 }
 
 var sumTest = sum(10, 2);
@@ -48,5 +48,25 @@ console.log(validateError(2)); //Pruebas y muestras
 //  Parte d
 
 function sum3(a,b)  {
+    if (typeof a == 'number' && typeof b == 'number')   {
+        if (validateError(a) && validateError(b))   {
+            return a + b;
+        }
+        else    {
+            alert('error: a number is not integer');
+            if (!validateError(a))  {
+                return Math.floor(a);
+            } else {
+                return Math.floor(b);
+            }
 
+        }
+    } else  {
+        alert('error: a parameter is not a number');
+        return NaN;
+    }
 }
+
+console.log(sum3(2,5));
+sum3(2, 'a');
+console.log(sum3(2,2.5)); //Prueba de la función
