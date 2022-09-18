@@ -14,8 +14,8 @@
 
 //  Parte a
 
-var randomNum = Math.random();
-console.log(randomNum);
+var randomNum = Math.random() //Crea un numero aleatorio entre 0 y 1;
+console.log(randomNum);       //Muestra el numero aleatorio creado
 
 if (randomNum >= 0.5)   {
     alert('Greater than 0.5');
@@ -25,8 +25,8 @@ if (randomNum >= 0.5)   {
 
 //Parte b
 
-var age = Math.floor(Math.random()*101); //Crea un numero random entre 0 y 100
-console.log(age);
+var age = Math.floor(Math.random()*101); //Crea un numero aleatorio entre 0 y 100
+console.log(age);                        //Muestra el numero creado
 
 if (age <= 2)   {
     alert('Bebe');
