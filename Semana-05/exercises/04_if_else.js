@@ -16,6 +16,7 @@
 
 var randomNum = Math.random();
 console.log(randomNum);
+
 if (randomNum >= 0.5)   {
     alert('Greater than 0.5');
 } else  {
@@ -23,3 +24,28 @@ if (randomNum >= 0.5)   {
 }
 
 //Parte b
+
+var age = Math.floor(Math.random()*101); //Crea un numero random entre 0 y 100
+console.log(age);
+
+if (age <= 2)   {
+    alert('Bebe');
+}
+if (age >= 2 && age <=12)   {
+    alert('Niño');
+}
+if (age >=13 && age <= 19)  {
+    alert('Adolescente');
+}
+if (age >=20 && age <= 30)  {
+    alert('Joven');
+}
+if (age >=31 && age <= 60)  {
+    alert('Adulto');
+}
+if (age >=61 && age <= 75)  {
+    alert('Adulto mayor');
+}
+if (age >= 75)  {
+    alert('Anciano');
+}
