@@ -19,14 +19,12 @@ console.log(months[4] + ' ' + months[10]); //Salida
 
 //  Parte b
 
-var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 months.sort(); //Ordena los meses
 
 console.log(months);
 
 //  Parte c
 
-var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 months.unshift('First element'); //Añade el string al principio
 months.push('Last element');    //Añade el string al final
 
@@ -34,7 +32,6 @@ console.log(months);
 
 // Parte d
 
-var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 months.shift(); //Elimina el primer string
 months.pop();   //Elimina el ultimo string
 
@@ -42,14 +39,12 @@ console.log(months);
 
 //  Parte e
 
-var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 months.reverse();   //Revierte el orden del array
 
 console.log(months);
 
 //Parte f
 
-var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 var monthsString = months.join('-');
 
 console.log(monthsString);
