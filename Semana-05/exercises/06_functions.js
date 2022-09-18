@@ -13,7 +13,7 @@
     // e. Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de la
     // función suma probando que todo siga funcionando igual.
 
-// Parte a 
+//  Parte a 
 
 function sum(a, b)  {
     return a + b;
@@ -22,3 +22,13 @@ function sum(a, b)  {
 var sumTest = sum(10, 2);
 
 console.log(sumTest);
+
+//  Parte b
+
+function sum2(a,b) {
+    if (typeof a == 'number' && typeof b == 'number')   {
+        return a + b;
+    }
+
+    alert('error');
+} //Si son ambos de tipo number retorna a + b y sale de la función sino, lanza la alerta
