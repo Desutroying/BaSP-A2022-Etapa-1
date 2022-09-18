@@ -30,5 +30,23 @@ function sum2(a,b) {
         return a + b;
     }
 
-    alert('error');
+    alert('error: a parameter is not a number');
+    return NaN;
 } //Si son ambos de tipo number retorna a + b y sale de la función sino, lanza la alerta
+
+console.log(sum2(10,'c')) //Prueba
+
+//  Parte c
+
+function validateError(num) {
+    return Number.isInteger(num);
+}
+
+console.log(validateError(0.5));
+console.log(validateError(2)); //Pruebas y muestras
+
+//  Parte d
+
+function sum3(a,b)  {
+
+}
